@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>E:/OneDrive - ITMO UNIVERSITY/Desktop/Study/Second_Half/Prog/NewProject/src/main/java</OriginalElement>
+  <nodes>
+    <node x="1183.6654022157936" y="816.0">utility.interfaces.CollectionManagerInterface</node>
+    <node x="2724.2487355491266" y="1390.0">commands.Add</node>
+    <node x="1115.9987355491266" y="956.0">utility.CollectionManager</node>
+    <node x="2383.1498675337175" y="827.0">utility.Respond</node>
+    <node x="3352.1486030828446" y="1413.0">commands.Update_id</node>
+    <node x="2514.33206888246" y="1401.5">commands.Clear</node>
+    <node x="342.1654022157936" y="1425.5">utility.interfaces.ConsoleInterface</node>
+    <node x="2124.4987355491266" y="1619.0">commands.Remove_lower</node>
+    <node x="3588.1486030828446" y="1413.0">commands.Print_field_descending_comment</node>
+    <node x="413.64860308284415" y="1619.0">exceptions.ArgumentFromFileException</node>
+    <node x="996.4549012524003" y="354.0">data.Ticket</node>
+    <node x="2307.33206888246" y="1413.0">commands.Help</node>
+    <node x="3094.1486030828446" y="1413.0">commands.Remove_by_id</node>
+    <node x="219.0" y="2027.0">utility.interfaces.ConsoleReaderInterface</node>
+    <node x="3007.9154022157936" y="1619.0">commands.Remove_greater</node>
+    <node x="2427.708333333333" y="0.0">data.Person</node>
+    <node x="676.6486030828441" y="1574.0">utility.Command</node>
+    <node x="940.0270351637773" y="1413.0">commands.Save</node>
+    <node x="1812.9987355491266" y="1413.0">commands.Show</node>
+    <node x="3943.1486030828446" y="1413.0">commands.Group_counting_by_price</node>
+    <node x="119.94370183044407" y="1390.0">commands.Execute_script</node>
+    <node x="0.0" y="2027.0">utility.interfaces.commandValidator</node>
+    <node x="1000.3986030828443" y="1928.0">UDPServer</node>
+    <node x="2735.708333333333" y="89.0">data.TicketType</node>
+    <node x="2022.9987355491269" y="1413.0">commands.Info</node>
+    <node x="542.3986030828441" y="1812.0">utility.Validator</node>
+    <node x="1276.733200867051" y="1812.0">utility.Invoker</node>
+    <node x="2756.83206888246" y="1619.0">commands.Add_if_max</node>
+    <node x="1331.9987355491266" y="1206.0">commands.AbstractCommand</node>
+    <node x="1454.25" y="1012.0">commands.interfaces.CommandInterface</node>
+    <node x="1612.9987355491266" y="1413.0">commands.Exit</node>
+    <node x="756.0" y="44.0">data.Coordinates</node>
+    <node x="198.64860308284415" y="1596.0">utility.Console</node>
+    <node x="4257.148603082845" y="1413.0">commands.Remove_any_by_type</node>
+    <node x="536.1486030828441" y="1928.0">UDPClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="utility.CollectionManager" target="data.Ticket" relationship="DEPENDENCY">
+      <point x="0.0" y="-83.0" />
+      <point x="1204.9987355491266" y="914.0" />
+      <point x="1173.1654022157936" y="914.0" />
+      <point x="1173.1654022157936" y="794.0" />
+      <point x="2866.833333333333" y="794.0" />
+      <point x="2866.833333333333" y="784.0" />
+      <point x="1307.2882345857336" y="784.0" />
+      <point x="124.33333333333331" y="204.0" />
+    </edge>
+    <edge source="commands.Update_id" target="commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-72.0" y="-27.0" />
+      <point x="3388.1486030828446" y="1358.0" />
+      <point x="2618.193701830444" y="1358.0" />
+      <point x="2618.193701830444" y="1328.0" />
+      <point x="1548.6654022157936" y="1328.0" />
+      <point x="86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.Exit" relationship="CREATE">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="1443.3998675337173" y="1790.0" />
+      <point x="2764.3986030828446" y="1790.0" />
+      <point x="2764.3986030828446" y="1780.0" />
+      <point x="1702.9987355491269" y="1780.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="commands.Update_id" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="3460.1486030828446" y="1368.0" />
+      <point x="3444.3998675337175" y="1368.0" />
+      <point x="3444.3998675337175" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="utility.CollectionManager" target="data.Ticket" relationship="TO_MANY">
+      <point x="-59.33333333333337" y="-83.0" />
+      <point x="1145.6654022157934" y="914.0" />
+      <point x="1121.1654022157936" y="914.0" />
+      <point x="1121.1654022157936" y="784.0" />
+      <point x="1182.9549012524003" y="784.0" />
+      <point x="0.0" y="204.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.Print_field_descending_comment" relationship="CREATE">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="1443.3998675337173" y="1790.0" />
+      <point x="2764.3986030828446" y="1790.0" />
+      <point x="2764.3986030828446" y="1780.0" />
+      <point x="3755.6486030828446" y="1780.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="commands.AbstractCommand" target="utility.Respond" relationship="DEPENDENCY">
+      <point x="0.0" y="-50.0" />
+      <point x="1461.9987355491266" y="1184.0" />
+      <point x="1443.75" y="1184.0" />
+      <point x="1443.75" y="934.0" />
+      <point x="1411.8333333333335" y="934.0" />
+      <point x="1411.8333333333335" y="914.0" />
+      <point x="2417.6498675337175" y="914.0" />
+      <point x="-34.5" y="27.0" />
+    </edge>
+    <edge source="commands.AbstractCommand" target="utility.CollectionManager" relationship="TO_ONE">
+      <point x="-86.66666666666674" y="-50.0" />
+      <point x="1375.3320688824601" y="1184.0" />
+      <point x="1204.9987355491266" y="1184.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="commands.Execute_script" target="utility.Console" relationship="TO_ONE">
+      <point x="0.0" y="50.0" />
+      <point x="208.44370183044407" y="1552.0" />
+      <point x="231.14860308284415" y="1552.0" />
+      <point x="-65.0" y="-50.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.Add_if_max" relationship="CREATE">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="1443.3998675337173" y="1790.0" />
+      <point x="2764.3986030828446" y="1790.0" />
+      <point x="2764.3986030828446" y="1780.0" />
+      <point x="2868.33206888246" y="1780.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="commands.Remove_any_by_type" target="data.TicketType" relationship="DEPENDENCY">
+      <point x="91.0" y="-27.0" />
+      <point x="4484.648603082845" y="1368.0" />
+      <point x="4380.0" y="1368.0" />
+      <point x="4380.0" y="1358.0" />
+      <point x="4415.733200867051" y="1358.0" />
+      <point x="4415.733200867051" y="323.0" />
+      <point x="2789.958333333333" y="323.0" />
+      <point x="2789.958333333333" y="253.0" />
+      <point x="2765.458333333333" y="253.0" />
+      <point x="-29.75" y="27.0" />
+    </edge>
+    <edge source="commands.Exit" target="utility.Respond" relationship="DEPENDENCY">
+      <point x="-45.0" y="-27.0" />
+      <point x="1657.9987355491266" y="1368.0" />
+      <point x="1682.4987355491266" y="1368.0" />
+      <point x="1682.4987355491266" y="934.0" />
+      <point x="1411.8333333333335" y="934.0" />
+      <point x="1411.8333333333335" y="914.0" />
+      <point x="2417.6498675337175" y="914.0" />
+      <point x="-34.5" y="27.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.Remove_by_id" relationship="CREATE">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="1443.3998675337173" y="1790.0" />
+      <point x="2764.3986030828446" y="1790.0" />
+      <point x="2764.3986030828446" y="1780.0" />
+      <point x="3302.2487355491266" y="1780.0" />
+      <point x="3302.2487355491266" y="1522.0" />
+      <point x="3212.6486030828446" y="1522.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="commands.Clear" target="commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="62.66666666666674" y="-38.5" />
+      <point x="2670.9987355491266" y="1358.0" />
+      <point x="2618.193701830444" y="1358.0" />
+      <point x="2618.193701830444" y="1328.0" />
+      <point x="1548.6654022157936" y="1328.0" />
+      <point x="86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="commands.Save" target="data.Ticket" relationship="DEPENDENCY">
+      <point x="-62.0" y="-27.0" />
+      <point x="971.0270351637773" y="1368.0" />
+      <point x="945.8986030828441" y="1368.0" />
+      <point x="945.8986030828441" y="1358.0" />
+      <point x="1062.0833333333335" y="1358.0" />
+      <point x="1062.0833333333335" y="794.0" />
+      <point x="2866.833333333333" y="794.0" />
+      <point x="2866.833333333333" y="784.0" />
+      <point x="1307.2882345857336" y="784.0" />
+      <point x="124.33333333333331" y="204.0" />
+    </edge>
+    <edge source="commands.Show" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="-63.33333333333337" y="-27.0" />
+      <point x="1844.6654022157934" y="1368.0" />
+      <point x="1754.3986030828441" y="1368.0" />
+      <point x="1754.3986030828441" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="UDPClient" target="utility.Console" relationship="TO_ONE">
+      <point x="7.105427357601002E-15" y="-27.0" />
+      <point x="594.1486030828441" y="1887.0" />
+      <point x="417.64860308284415" y="1887.0" />
+      <point x="417.64860308284415" y="1750.0" />
+      <point x="296.14860308284415" y="1750.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="commands.Add_if_max" target="utility.Respond" relationship="CREATE">
+      <point x="74.33333333333331" y="-27.0" />
+      <point x="2942.6654022157936" y="1552.0" />
+      <point x="2955.3986030828446" y="1552.0" />
+      <point x="2955.3986030828446" y="924.0" />
+      <point x="2898.4166666666665" y="924.0" />
+      <point x="2898.4166666666665" y="914.0" />
+      <point x="2486.6498675337175" y="914.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.AbstractCommand" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="1376.733200867051" y="1790.0" />
+      <point x="1393.1498675337175" y="1790.0" />
+      <point x="1393.1498675337175" y="1770.0" />
+      <point x="1461.9987355491266" y="1770.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.Remove_greater" relationship="CREATE">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="1443.3998675337173" y="1790.0" />
+      <point x="2764.3986030828446" y="1790.0" />
+      <point x="2764.3986030828446" y="1780.0" />
+      <point x="3131.9154022157936" y="1780.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="utility.Validator" target="utility.Console" relationship="TO_ONE">
+      <point x="50.666666666666515" y="-27.0" />
+      <point x="669.0652697495107" y="1790.0" />
+      <point x="761.6486030828441" y="1790.0" />
+      <point x="761.6486030828441" y="1780.0" />
+      <point x="417.64860308284415" y="1780.0" />
+      <point x="417.64860308284415" y="1750.0" />
+      <point x="296.14860308284415" y="1750.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="commands.Help" target="utility.Respond" relationship="CREATE">
+      <point x="-62.33333333333326" y="-27.0" />
+      <point x="2338.4987355491266" y="1348.0" />
+      <point x="2373.0" y="1348.0" />
+      <point x="2373.0" y="924.0" />
+      <point x="2898.4166666666665" y="924.0" />
+      <point x="2898.4166666666665" y="914.0" />
+      <point x="2486.6498675337175" y="914.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+    <edge source="commands.Remove_greater" target="commands.Remove_by_id" relationship="CREATE">
+      <point x="82.66666666666652" y="-27.0" />
+      <point x="3214.5820688824597" y="1552.0" />
+      <point x="3237.7487355491266" y="1552.0" />
+      <point x="3237.7487355491266" y="1532.0" />
+      <point x="3212.6486030828446" y="1532.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="utility.Invoker" target="utility.Respond" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="1376.733200867051" y="1790.0" />
+      <point x="1393.1498675337175" y="1790.0" />
+      <point x="1393.1498675337175" y="1770.0" />
+      <point x="1321.4987355491266" y="1770.0" />
+      <point x="1321.4987355491266" y="934.0" />
+      <point x="1411.8333333333335" y="934.0" />
+      <point x="1411.8333333333335" y="914.0" />
+      <point x="2417.6498675337175" y="914.0" />
+      <point x="-34.5" y="27.0" />
+    </edge>
+    <edge source="commands.Clear" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="-62.66666666666674" y="-38.5" />
+      <point x="2545.665402215793" y="1348.0" />
+      <point x="2451.2770351637773" y="1348.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="commands.Remove_any_by_type" target="commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-91.0" y="-27.0" />
+      <point x="4302.648603082845" y="1358.0" />
+      <point x="2618.193701830444" y="1358.0" />
+      <point x="2618.193701830444" y="1328.0" />
+      <point x="1548.6654022157936" y="1328.0" />
+      <point x="86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="commands.Info" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="2113.9987355491266" y="1348.0" />
+      <point x="2089.8986030828446" y="1348.0" />
+      <point x="2089.8986030828446" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="utility.Invoker" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="1376.733200867051" y="1790.0" />
+      <point x="1393.1498675337175" y="1790.0" />
+      <point x="1393.1498675337175" y="1770.0" />
+      <point x="1602.4987355491266" y="1770.0" />
+      <point x="1602.4987355491266" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="UDPServer" target="utility.Invoker" relationship="TO_ONE">
+      <point x="40.0" y="-27.0" />
+      <point x="1100.3986030828441" y="1907.0" />
+      <point x="1325.8986030828441" y="1907.0" />
+      <point x="1325.8986030828441" y="1887.0" />
+      <point x="1426.733200867051" y="1887.0" />
+      <point x="50.0" y="27.0" />
+    </edge>
+    <edge source="data.Ticket" target="data.Coordinates" relationship="TO_ONE">
+      <point x="93.25" y="-204.0" />
+      <point x="1276.2049012524003" y="313.0" />
+      <point x="4470.621567919067" y="313.0" />
+      <point x="4470.621567919067" y="263.0" />
+      <point x="917.666666666667" y="263.0" />
+      <point x="64.66666666666674" y="72.0" />
+    </edge>
+    <edge source="UDPServer" target="commands.Save" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="1060.3986030828441" y="1897.0" />
+      <point x="1033.0270351637773" y="1897.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="UDPClient" target="exceptions.ArgumentFromFileException" relationship="DEPENDENCY">
+      <point x="38.66666666666666" y="-27.0" />
+      <point x="632.8152697495109" y="1907.0" />
+      <point x="857.1486030828441" y="1907.0" />
+      <point x="857.1486030828441" y="1897.0" />
+      <point x="809.3986030828441" y="1897.0" />
+      <point x="809.3986030828441" y="1770.0" />
+      <point x="595.1486030828441" y="1770.0" />
+      <point x="60.5" y="27.0" />
+    </edge>
+    <edge source="commands.Update_id" target="utility.Respond" relationship="CREATE">
+      <point x="72.0" y="-27.0" />
+      <point x="3532.1486030828446" y="1348.0" />
+      <point x="3536.1215679190673" y="1348.0" />
+      <point x="3536.1215679190673" y="924.0" />
+      <point x="2898.4166666666665" y="924.0" />
+      <point x="2898.4166666666665" y="914.0" />
+      <point x="2486.6498675337175" y="914.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+    <edge source="commands.Add" target="data.Ticket" relationship="DEPENDENCY">
+      <point x="0.0" y="-50.0" />
+      <point x="2816.2487355491266" y="1368.0" />
+      <point x="2841.415402215793" y="1368.0" />
+      <point x="2841.415402215793" y="794.0" />
+      <point x="2866.833333333333" y="794.0" />
+      <point x="2866.833333333333" y="784.0" />
+      <point x="1307.2882345857336" y="784.0" />
+      <point x="124.33333333333331" y="204.0" />
+    </edge>
+    <edge source="UDPClient" target="utility.Command" relationship="DEPENDENCY">
+      <point x="38.66666666666666" y="-27.0" />
+      <point x="632.8152697495109" y="1907.0" />
+      <point x="857.1486030828441" y="1907.0" />
+      <point x="857.1486030828441" y="1897.0" />
+      <point x="867.6486030828441" y="1897.0" />
+      <point x="867.6486030828441" y="1770.0" />
+      <point x="818.3152697495109" y="1770.0" />
+      <point x="56.66666666666674" y="72.0" />
+    </edge>
+    <edge source="commands.Save" target="data.Coordinates" relationship="DEPENDENCY">
+      <point x="-62.0" y="-27.0" />
+      <point x="971.0270351637773" y="1368.0" />
+      <point x="945.8986030828441" y="1368.0" />
+      <point x="945.8986030828441" y="1358.0" />
+      <point x="903.4154022157936" y="1358.0" />
+      <point x="903.4154022157936" y="273.0" />
+      <point x="853.0" y="273.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="UDPClient" target="utility.Console" relationship="CREATE">
+      <point x="-38.66666666666666" y="-27.0" />
+      <point x="555.4819364161774" y="1907.0" />
+      <point x="33.233200867050755" y="1907.0" />
+      <point x="33.233200867050755" y="1897.0" />
+      <point x="10.5" y="1897.0" />
+      <point x="10.5" y="1780.0" />
+      <point x="231.14860308284415" y="1780.0" />
+      <point x="-65.0" y="50.0" />
+    </edge>
+    <edge source="UDPServer" target="utility.Command" relationship="DEPENDENCY">
+      <point x="-40.0" y="-27.0" />
+      <point x="1020.3986030828443" y="1907.0" />
+      <point x="872.8986030828441" y="1907.0" />
+      <point x="872.8986030828441" y="1887.0" />
+      <point x="867.6486030828441" y="1887.0" />
+      <point x="867.6486030828441" y="1770.0" />
+      <point x="818.3152697495109" y="1770.0" />
+      <point x="56.66666666666674" y="72.0" />
+    </edge>
+    <edge source="UDPClient" target="utility.Respond" relationship="DEPENDENCY">
+      <point x="38.66666666666666" y="-27.0" />
+      <point x="632.8152697495109" y="1907.0" />
+      <point x="857.1486030828441" y="1907.0" />
+      <point x="857.1486030828441" y="934.0" />
+      <point x="1411.8333333333335" y="934.0" />
+      <point x="1411.8333333333335" y="914.0" />
+      <point x="2417.6498675337175" y="914.0" />
+      <point x="-34.5" y="27.0" />
+    </edge>
+    <edge source="commands.Info" target="commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="60.666666666666515" y="-27.0" />
+      <point x="2174.6654022157936" y="1358.0" />
+      <point x="2618.193701830444" y="1358.0" />
+      <point x="2618.193701830444" y="1328.0" />
+      <point x="1548.6654022157936" y="1328.0" />
+      <point x="86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="commands.Print_field_descending_comment" target="commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-111.66666666666674" y="-27.0" />
+      <point x="3643.9819364161776" y="1358.0" />
+      <point x="2618.193701830444" y="1358.0" />
+      <point x="2618.193701830444" y="1328.0" />
+      <point x="1548.6654022157936" y="1328.0" />
+      <point x="86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.Show" relationship="CREATE">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="1443.3998675337173" y="1790.0" />
+      <point x="2764.3986030828446" y="1790.0" />
+      <point x="2764.3986030828446" y="1780.0" />
+      <point x="1907.9987355491266" y="1780.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="data.Ticket" target="data.TicketType" relationship="TO_ONE">
+      <point x="93.25" y="-204.0" />
+      <point x="1276.2049012524003" y="313.0" />
+      <point x="4470.621567919067" y="313.0" />
+      <point x="4470.621567919067" y="263.0" />
+      <point x="2824.958333333333" y="263.0" />
+      <point x="29.75" y="27.0" />
+    </edge>
+    <edge source="UDPServer" target="utility.CollectionManager" relationship="TO_ONE">
+      <point x="40.0" y="-27.0" />
+      <point x="1100.3986030828441" y="1907.0" />
+      <point x="1325.8986030828441" y="1907.0" />
+      <point x="1325.8986030828441" y="1887.0" />
+      <point x="1136.5270351637773" y="1887.0" />
+      <point x="1136.5270351637773" y="1184.0" />
+      <point x="1204.9987355491266" y="1184.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="commands.Remove_greater" target="commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-82.66666666666652" y="-27.0" />
+      <point x="3049.2487355491266" y="1532.0" />
+      <point x="2966.3986030828446" y="1532.0" />
+      <point x="2966.3986030828446" y="1358.0" />
+      <point x="2618.193701830444" y="1358.0" />
+      <point x="2618.193701830444" y="1328.0" />
+      <point x="1548.6654022157936" y="1328.0" />
+      <point x="86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="commands.Group_counting_by_price" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="4090.1486030828446" y="1368.0" />
+      <point x="4065.5" y="1368.0" />
+      <point x="4065.5" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="utility.Validator" target="data.Ticket" relationship="CREATE">
+      <point x="-50.666666666666515" y="-27.0" />
+      <point x="567.7319364161776" y="1790.0" />
+      <point x="162.64860308284415" y="1790.0" />
+      <point x="162.64860308284415" y="1760.0" />
+      <point x="109.44370183044407" y="1760.0" />
+      <point x="109.44370183044407" y="784.0" />
+      <point x="1058.6215679190668" y="784.0" />
+      <point x="-124.33333333333333" y="204.0" />
+    </edge>
+    <edge source="commands.Remove_by_id" target="data.Ticket" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="3212.6486030828446" y="1368.0" />
+      <point x="3193.3998675337175" y="1368.0" />
+      <point x="3193.3998675337175" y="794.0" />
+      <point x="2866.833333333333" y="794.0" />
+      <point x="2866.833333333333" y="784.0" />
+      <point x="1307.2882345857336" y="784.0" />
+      <point x="124.33333333333331" y="204.0" />
+    </edge>
+    <edge source="utility.Validator" target="data.Person" relationship="CREATE">
+      <point x="-50.666666666666515" y="-27.0" />
+      <point x="567.7319364161776" y="1790.0" />
+      <point x="162.64860308284415" y="1790.0" />
+      <point x="162.64860308284415" y="1760.0" />
+      <point x="98.94370183044407" y="1760.0" />
+      <point x="98.94370183044407" y="293.0" />
+      <point x="2475.708333333333" y="293.0" />
+      <point x="-96.0" y="116.0" />
+    </edge>
+    <edge source="commands.Remove_lower" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="-79.66666666666652" y="-27.0" />
+      <point x="2164.3320688824606" y="1552.0" />
+      <point x="2258.58206888246" y="1552.0" />
+      <point x="2258.58206888246" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.Clear" relationship="CREATE">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="1443.3998675337173" y="1790.0" />
+      <point x="2764.3986030828446" y="1790.0" />
+      <point x="2764.3986030828446" y="1780.0" />
+      <point x="2608.33206888246" y="1780.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="commands.Show" target="utility.Respond" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="1907.9987355491266" y="1348.0" />
+      <point x="1883.8986030828441" y="1348.0" />
+      <point x="1883.8986030828441" y="924.0" />
+      <point x="2898.4166666666665" y="924.0" />
+      <point x="2898.4166666666665" y="914.0" />
+      <point x="2486.6498675337175" y="914.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.Help" relationship="CREATE">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="1443.3998675337173" y="1790.0" />
+      <point x="2764.3986030828446" y="1790.0" />
+      <point x="2764.3986030828446" y="1780.0" />
+      <point x="2400.83206888246" y="1780.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="utility.Console" target="utility.interfaces.ConsoleInterface" relationship="REALIZATION">
+      <point x="65.0" y="-50.0" />
+      <point x="361.14860308284415" y="1552.0" />
+      <point x="420.1654022157936" y="1552.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.AbstractCommand" relationship="TO_MANY">
+      <point x="-66.66666666666652" y="-27.0" />
+      <point x="1310.0665342003845" y="1790.0" />
+      <point x="1254.4987355491266" y="1790.0" />
+      <point x="1254.4987355491266" y="1770.0" />
+      <point x="1259.7487355491266" y="1770.0" />
+      <point x="1259.7487355491266" y="1348.0" />
+      <point x="1375.3320688824601" y="1348.0" />
+      <point x="-86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="commands.Remove_lower" target="commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="2243.9987355491266" y="1542.0" />
+      <point x="2278.33206888246" y="1542.0" />
+      <point x="2278.33206888246" y="1358.0" />
+      <point x="2618.193701830444" y="1358.0" />
+      <point x="2618.193701830444" y="1328.0" />
+      <point x="1548.6654022157936" y="1328.0" />
+      <point x="86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="commands.Save" target="commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="62.0" y="-27.0" />
+      <point x="1095.0270351637773" y="1358.0" />
+      <point x="2618.193701830444" y="1358.0" />
+      <point x="2618.193701830444" y="1328.0" />
+      <point x="1548.6654022157936" y="1328.0" />
+      <point x="86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="commands.Remove_greater" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="3131.9154022157936" y="1552.0" />
+      <point x="3080.8986030828446" y="1552.0" />
+      <point x="3080.8986030828446" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="commands.Group_counting_by_price" target="commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-98.0" y="-27.0" />
+      <point x="3992.1486030828446" y="1358.0" />
+      <point x="2618.193701830444" y="1358.0" />
+      <point x="2618.193701830444" y="1328.0" />
+      <point x="1548.6654022157936" y="1328.0" />
+      <point x="86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="commands.Remove_any_by_type" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="91.0" y="-27.0" />
+      <point x="4484.648603082845" y="1368.0" />
+      <point x="4380.0" y="1368.0" />
+      <point x="4380.0" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="commands.Print_field_descending_comment" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="3755.6486030828446" y="1368.0" />
+      <point x="3730.9999999999995" y="1368.0" />
+      <point x="3730.9999999999995" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="utility.Validator" target="utility.Command" relationship="TO_MANY">
+      <point x="50.666666666666515" y="-27.0" />
+      <point x="669.0652697495107" y="1790.0" />
+      <point x="761.6486030828441" y="1790.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="commands.Remove_by_id" target="utility.Respond" relationship="CREATE">
+      <point x="79.0" y="-27.0" />
+      <point x="3291.6486030828446" y="1348.0" />
+      <point x="3258.1498675337175" y="1348.0" />
+      <point x="3258.1498675337175" y="924.0" />
+      <point x="2898.4166666666665" y="924.0" />
+      <point x="2898.4166666666665" y="914.0" />
+      <point x="2486.6498675337175" y="914.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.Update_id" relationship="CREATE">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="1443.3998675337173" y="1790.0" />
+      <point x="2764.3986030828446" y="1790.0" />
+      <point x="2764.3986030828446" y="1780.0" />
+      <point x="3460.1486030828446" y="1780.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="commands.Add_if_max" target="data.Ticket" relationship="DEPENDENCY">
+      <point x="-74.33333333333331" y="-27.0" />
+      <point x="2793.9987355491266" y="1552.0" />
+      <point x="2712.83206888246" y="1552.0" />
+      <point x="2712.83206888246" y="794.0" />
+      <point x="2866.833333333333" y="794.0" />
+      <point x="2866.833333333333" y="784.0" />
+      <point x="1307.2882345857336" y="784.0" />
+      <point x="124.33333333333331" y="204.0" />
+    </edge>
+    <edge source="data.Ticket" target="data.Coordinates" relationship="DEPENDENCY">
+      <point x="-93.25" y="-204.0" />
+      <point x="1089.7049012524003" y="333.0" />
+      <point x="2576.958333333333" y="333.0" />
+      <point x="2576.958333333333" y="283.0" />
+      <point x="903.4154022157936" y="283.0" />
+      <point x="903.4154022157936" y="273.0" />
+      <point x="853.0" y="273.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="data.Ticket" target="data.Person" relationship="TO_ONE">
+      <point x="93.25" y="-204.0" />
+      <point x="1276.2049012524003" y="313.0" />
+      <point x="4470.621567919067" y="313.0" />
+      <point x="4470.621567919067" y="263.0" />
+      <point x="2667.708333333333" y="263.0" />
+      <point x="96.0" y="116.0" />
+    </edge>
+    <edge source="utility.Validator" target="data.Coordinates" relationship="CREATE">
+      <point x="-50.666666666666515" y="-27.0" />
+      <point x="567.7319364161776" y="1790.0" />
+      <point x="162.64860308284415" y="1790.0" />
+      <point x="162.64860308284415" y="1760.0" />
+      <point x="21.0" y="1760.0" />
+      <point x="21.0" y="283.0" />
+      <point x="788.3333333333333" y="283.0" />
+      <point x="-64.66666666666674" y="72.0" />
+    </edge>
+    <edge source="commands.Add" target="utility.Respond" relationship="CREATE">
+      <point x="61.33333333333334" y="-50.0" />
+      <point x="2877.833333333333" y="924.0" />
+      <point x="2898.4166666666665" y="924.0" />
+      <point x="2898.4166666666665" y="914.0" />
+      <point x="2486.6498675337175" y="914.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+    <edge source="commands.Update_id" target="data.Ticket" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="3460.1486030828446" y="1368.0" />
+      <point x="3444.3998675337175" y="1368.0" />
+      <point x="3444.3998675337175" y="794.0" />
+      <point x="2866.833333333333" y="794.0" />
+      <point x="2866.833333333333" y="784.0" />
+      <point x="1307.2882345857336" y="784.0" />
+      <point x="124.33333333333331" y="204.0" />
+    </edge>
+    <edge source="utility.Validator" target="utility.Console" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="618.3986030828441" y="1740.0" />
+      <point x="361.14860308284415" y="1740.0" />
+      <point x="65.0" y="50.0" />
+    </edge>
+    <edge source="UDPClient" target="utility.Validator" relationship="TO_ONE">
+      <point x="7.105427357601002E-15" y="-27.0" />
+      <point x="594.1486030828441" y="1887.0" />
+      <point x="656.3986030828441" y="1887.0" />
+      <point x="38.0" y="27.0" />
+    </edge>
+    <edge source="commands.Show" target="data.Ticket" relationship="DEPENDENCY">
+      <point x="-63.33333333333337" y="-27.0" />
+      <point x="1844.6654022157934" y="1368.0" />
+      <point x="1754.3986030828441" y="1368.0" />
+      <point x="1754.3986030828441" y="794.0" />
+      <point x="2866.833333333333" y="794.0" />
+      <point x="2866.833333333333" y="784.0" />
+      <point x="1307.2882345857336" y="784.0" />
+      <point x="124.33333333333331" y="204.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.Add" relationship="CREATE">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="1443.3998675337173" y="1790.0" />
+      <point x="2764.3986030828446" y="1790.0" />
+      <point x="2764.3986030828446" y="1780.0" />
+      <point x="2746.33206888246" y="1780.0" />
+      <point x="2746.33206888246" y="1512.0" />
+      <point x="2770.2487355491266" y="1512.0" />
+      <point x="-46.0" y="50.0" />
+    </edge>
+    <edge source="commands.Save" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="-62.0" y="-27.0" />
+      <point x="971.0270351637773" y="1368.0" />
+      <point x="945.8986030828441" y="1368.0" />
+      <point x="945.8986030828441" y="1358.0" />
+      <point x="1062.0833333333335" y="1358.0" />
+      <point x="1062.0833333333335" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="utility.Validator" target="utility.Command" relationship="CREATE">
+      <point x="-50.666666666666515" y="-27.0" />
+      <point x="567.7319364161776" y="1790.0" />
+      <point x="162.64860308284415" y="1790.0" />
+      <point x="162.64860308284415" y="1760.0" />
+      <point x="704.9819364161774" y="1760.0" />
+      <point x="-56.66666666666674" y="72.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.Group_counting_by_price" relationship="CREATE">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="1443.3998675337173" y="1790.0" />
+      <point x="2764.3986030828446" y="1790.0" />
+      <point x="2764.3986030828446" y="1780.0" />
+      <point x="4090.1486030828446" y="1780.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="commands.Add_if_max" target="commands.Add" relationship="CREATE">
+      <point x="74.33333333333331" y="-27.0" />
+      <point x="2942.6654022157936" y="1552.0" />
+      <point x="2955.3986030828446" y="1552.0" />
+      <point x="2955.3986030828446" y="1522.0" />
+      <point x="2746.33206888246" y="1522.0" />
+      <point x="2746.33206888246" y="1512.0" />
+      <point x="2770.2487355491266" y="1512.0" />
+      <point x="-46.0" y="50.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.Remove_lower" relationship="CREATE">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="1443.3998675337173" y="1790.0" />
+      <point x="2764.3986030828446" y="1790.0" />
+      <point x="2764.3986030828446" y="1780.0" />
+      <point x="2243.9987355491266" y="1780.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="utility.Validator" target="data.TicketType" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="618.3986030828441" y="1740.0" />
+      <point x="666.1486030828441" y="1740.0" />
+      <point x="666.1486030828441" y="323.0" />
+      <point x="2789.958333333333" y="323.0" />
+      <point x="2789.958333333333" y="253.0" />
+      <point x="2765.458333333333" y="253.0" />
+      <point x="-29.75" y="27.0" />
+    </edge>
+    <edge source="utility.Validator" target="exceptions.ArgumentFromFileException" relationship="CREATE">
+      <point x="-50.666666666666515" y="-27.0" />
+      <point x="567.7319364161776" y="1790.0" />
+      <point x="162.64860308284415" y="1790.0" />
+      <point x="162.64860308284415" y="1760.0" />
+      <point x="474.14860308284415" y="1760.0" />
+      <point x="-60.5" y="27.0" />
+    </edge>
+    <edge source="commands.Help" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="2400.83206888246" y="1348.0" />
+      <point x="2384.0" y="1348.0" />
+      <point x="2384.0" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="commands.Help" target="commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="62.33333333333326" y="-27.0" />
+      <point x="2463.165402215793" y="1358.0" />
+      <point x="2618.193701830444" y="1358.0" />
+      <point x="2618.193701830444" y="1328.0" />
+      <point x="1548.6654022157936" y="1328.0" />
+      <point x="86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="commands.Save" target="data.Person" relationship="DEPENDENCY">
+      <point x="-62.0" y="-27.0" />
+      <point x="971.0270351637773" y="1368.0" />
+      <point x="945.8986030828441" y="1368.0" />
+      <point x="945.8986030828441" y="303.0" />
+      <point x="2571.708333333333" y="303.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.Remove_any_by_type" relationship="CREATE">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="1443.3998675337173" y="1790.0" />
+      <point x="2764.3986030828446" y="1790.0" />
+      <point x="2764.3986030828446" y="1780.0" />
+      <point x="4393.648603082845" y="1780.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="commands.Info" target="utility.Respond" relationship="CREATE">
+      <point x="-60.666666666666515" y="-27.0" />
+      <point x="2053.3320688824606" y="1348.0" />
+      <point x="1991.3986030828441" y="1348.0" />
+      <point x="1991.3986030828441" y="924.0" />
+      <point x="2898.4166666666665" y="924.0" />
+      <point x="2898.4166666666665" y="914.0" />
+      <point x="2486.6498675337175" y="914.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+    <edge source="commands.Remove_any_by_type" target="data.Ticket" relationship="DEPENDENCY">
+      <point x="91.0" y="-27.0" />
+      <point x="4484.648603082845" y="1368.0" />
+      <point x="4380.0" y="1368.0" />
+      <point x="4380.0" y="794.0" />
+      <point x="2866.833333333333" y="794.0" />
+      <point x="2866.833333333333" y="784.0" />
+      <point x="1307.2882345857336" y="784.0" />
+      <point x="124.33333333333331" y="204.0" />
+    </edge>
+    <edge source="UDPServer" target="utility.Respond" relationship="DEPENDENCY">
+      <point x="-40.0" y="-27.0" />
+      <point x="1020.3986030828443" y="1907.0" />
+      <point x="872.8986030828441" y="1907.0" />
+      <point x="872.8986030828441" y="1887.0" />
+      <point x="878.1486030828441" y="1887.0" />
+      <point x="878.1486030828441" y="934.0" />
+      <point x="1411.8333333333335" y="934.0" />
+      <point x="1411.8333333333335" y="914.0" />
+      <point x="2417.6498675337175" y="914.0" />
+      <point x="-34.5" y="27.0" />
+    </edge>
+    <edge source="utility.Invoker" target="utility.Command" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="1376.733200867051" y="1790.0" />
+      <point x="1393.1498675337175" y="1790.0" />
+      <point x="1393.1498675337175" y="1780.0" />
+      <point x="867.6486030828441" y="1780.0" />
+      <point x="867.6486030828441" y="1770.0" />
+      <point x="818.3152697495109" y="1770.0" />
+      <point x="56.66666666666674" y="72.0" />
+    </edge>
+    <edge source="commands.Remove_lower" target="commands.Remove_by_id" relationship="CREATE">
+      <point x="79.66666666666652" y="-27.0" />
+      <point x="2323.6654022157936" y="1552.0" />
+      <point x="2289.33206888246" y="1552.0" />
+      <point x="2289.33206888246" y="1542.0" />
+      <point x="3212.6486030828446" y="1542.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="commands.Clear" target="utility.Respond" relationship="CREATE">
+      <point x="0.0" y="-38.5" />
+      <point x="2608.33206888246" y="1338.0" />
+      <point x="2462.2770351637773" y="1338.0" />
+      <point x="2462.2770351637773" y="924.0" />
+      <point x="2898.4166666666665" y="924.0" />
+      <point x="2898.4166666666665" y="914.0" />
+      <point x="2486.6498675337175" y="914.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+    <edge source="commands.Exit" target="commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="45.0" y="-27.0" />
+      <point x="1747.9987355491266" y="1358.0" />
+      <point x="2618.193701830444" y="1358.0" />
+      <point x="2618.193701830444" y="1328.0" />
+      <point x="1548.6654022157936" y="1328.0" />
+      <point x="86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="commands.Execute_script" target="utility.Console" relationship="DEPENDENCY">
+      <point x="59.0" y="50.0" />
+      <point x="267.44370183044407" y="1552.0" />
+      <point x="296.14860308284415" y="1552.0" />
+      <point x="0.0" y="-50.0" />
+    </edge>
+    <edge source="utility.Console" target="commands.Execute_script" relationship="DEPENDENCY">
+      <point x="0.0" y="-50.0" />
+      <point x="296.14860308284415" y="1552.0" />
+      <point x="267.44370183044407" y="1552.0" />
+      <point x="59.0" y="50.0" />
+    </edge>
+    <edge source="commands.Add" target="commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-61.33333333333334" y="-50.0" />
+      <point x="2754.915402215793" y="1358.0" />
+      <point x="2618.193701830444" y="1358.0" />
+      <point x="2618.193701830444" y="1328.0" />
+      <point x="1548.6654022157936" y="1328.0" />
+      <point x="86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="commands.Add" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="0.0" y="-50.0" />
+      <point x="2816.2487355491266" y="1368.0" />
+      <point x="2841.415402215793" y="1368.0" />
+      <point x="2841.415402215793" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="commands.Exit" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="-45.0" y="-27.0" />
+      <point x="1657.9987355491266" y="1368.0" />
+      <point x="1682.4987355491266" y="1368.0" />
+      <point x="1682.4987355491266" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="UDPClient" target="commands.Execute_script" relationship="CREATE">
+      <point x="-38.66666666666666" y="-27.0" />
+      <point x="555.4819364161774" y="1907.0" />
+      <point x="33.233200867050755" y="1907.0" />
+      <point x="33.233200867050755" y="1897.0" />
+      <point x="0.0" y="1897.0" />
+      <point x="0.0" y="1552.0" />
+      <point x="149.44370183044407" y="1552.0" />
+      <point x="-59.0" y="50.0" />
+    </edge>
+    <edge source="commands.Add_if_max" target="commands.Add" relationship="GENERALIZATION">
+      <point x="1.4210854715202004E-14" y="-27.0" />
+      <point x="2868.33206888246" y="1532.0" />
+      <point x="2862.2487355491266" y="1532.0" />
+      <point x="46.0" y="50.0" />
+    </edge>
+    <edge source="commands.Add_if_max" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="-74.33333333333331" y="-27.0" />
+      <point x="2793.9987355491266" y="1552.0" />
+      <point x="2712.83206888246" y="1552.0" />
+      <point x="2712.83206888246" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="commands.AbstractCommand" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="0.0" y="-50.0" />
+      <point x="1461.9987355491266" y="1184.0" />
+      <point x="1443.75" y="1184.0" />
+      <point x="1443.75" y="1164.0" />
+      <point x="2451.2770351637773" y="1164.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="utility.CollectionManager" target="utility.interfaces.CollectionManagerInterface" relationship="REALIZATION">
+      <point x="59.33333333333337" y="-83.0" />
+      <point x="1264.3320688824601" y="914.0" />
+      <point x="1296.1654022157936" y="914.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="commands.Remove_any_by_type" target="utility.Respond" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="4393.648603082845" y="1348.0" />
+      <point x="4369.0" y="1348.0" />
+      <point x="4369.0" y="924.0" />
+      <point x="2898.4166666666665" y="924.0" />
+      <point x="2898.4166666666665" y="914.0" />
+      <point x="2486.6498675337175" y="914.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+    <edge source="commands.Print_field_descending_comment" target="data.Ticket" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="3755.6486030828446" y="1368.0" />
+      <point x="3730.9999999999995" y="1368.0" />
+      <point x="3730.9999999999995" y="794.0" />
+      <point x="2866.833333333333" y="794.0" />
+      <point x="2866.833333333333" y="784.0" />
+      <point x="1307.2882345857336" y="784.0" />
+      <point x="124.33333333333331" y="204.0" />
+    </edge>
+    <edge source="data.Ticket" target="data.Person" relationship="DEPENDENCY">
+      <point x="-93.25" y="-204.0" />
+      <point x="1089.7049012524003" y="333.0" />
+      <point x="2576.958333333333" y="333.0" />
+      <point x="2576.958333333333" y="273.0" />
+      <point x="2571.708333333333" y="273.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="commands.Remove_by_id" target="utility.CollectionManager" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="3212.6486030828446" y="1368.0" />
+      <point x="3193.3998675337175" y="1368.0" />
+      <point x="3193.3998675337175" y="1174.0" />
+      <point x="2451.2770351637773" y="1174.0" />
+      <point x="2451.2770351637773" y="1144.0" />
+      <point x="1264.3320688824601" y="1144.0" />
+      <point x="59.33333333333337" y="83.0" />
+    </edge>
+    <edge source="commands.Remove_by_id" target="commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-79.0" y="-27.0" />
+      <point x="3133.6486030828446" y="1358.0" />
+      <point x="2618.193701830444" y="1358.0" />
+      <point x="2618.193701830444" y="1328.0" />
+      <point x="1548.6654022157936" y="1328.0" />
+      <point x="86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="commands.AbstractCommand" target="commands.interfaces.CommandInterface" relationship="REALIZATION">
+      <point x="86.66666666666674" y="-50.0" />
+      <point x="1548.6654022157936" y="1154.0" />
+      <point x="1541.25" y="1154.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="UDPServer" target="utility.Invoker" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="1060.3986030828441" y="1897.0" />
+      <point x="1326.733200867051" y="1897.0" />
+      <point x="-50.0" y="27.0" />
+    </edge>
+    <edge source="commands.Remove_greater" target="data.Ticket" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="3131.9154022157936" y="1552.0" />
+      <point x="3080.8986030828446" y="1552.0" />
+      <point x="3080.8986030828446" y="794.0" />
+      <point x="2866.833333333333" y="794.0" />
+      <point x="2866.833333333333" y="784.0" />
+      <point x="1307.2882345857336" y="784.0" />
+      <point x="124.33333333333331" y="204.0" />
+    </edge>
+    <edge source="data.Ticket" target="data.TicketType" relationship="DEPENDENCY">
+      <point x="-93.25" y="-204.0" />
+      <point x="1089.7049012524003" y="333.0" />
+      <point x="2576.958333333333" y="333.0" />
+      <point x="2576.958333333333" y="303.0" />
+      <point x="2789.958333333333" y="303.0" />
+      <point x="2789.958333333333" y="253.0" />
+      <point x="2765.458333333333" y="253.0" />
+      <point x="-29.75" y="27.0" />
+    </edge>
+    <edge source="commands.interfaces.CommandInterface" target="utility.Respond" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="1541.25" y="934.0" />
+      <point x="1411.8333333333335" y="934.0" />
+      <point x="1411.8333333333335" y="914.0" />
+      <point x="2417.6498675337175" y="914.0" />
+      <point x="-34.5" y="27.0" />
+    </edge>
+    <edge source="commands.Save" target="utility.Respond" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="1033.0270351637773" y="1368.0" />
+      <point x="1073.0833333333335" y="1368.0" />
+      <point x="1073.0833333333335" y="924.0" />
+      <point x="2898.4166666666665" y="924.0" />
+      <point x="2898.4166666666665" y="914.0" />
+      <point x="2486.6498675337175" y="914.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+    <edge source="commands.Remove_lower" target="data.Ticket" relationship="DEPENDENCY">
+      <point x="-79.66666666666652" y="-27.0" />
+      <point x="2164.3320688824606" y="1552.0" />
+      <point x="2258.58206888246" y="1552.0" />
+      <point x="2258.58206888246" y="794.0" />
+      <point x="2866.833333333333" y="794.0" />
+      <point x="2866.833333333333" y="784.0" />
+      <point x="1307.2882345857336" y="784.0" />
+      <point x="124.33333333333331" y="204.0" />
+    </edge>
+    <edge source="commands.Show" target="commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="63.33333333333337" y="-27.0" />
+      <point x="1971.3320688824601" y="1358.0" />
+      <point x="2618.193701830444" y="1358.0" />
+      <point x="2618.193701830444" y="1328.0" />
+      <point x="1548.6654022157936" y="1328.0" />
+      <point x="86.66666666666674" y="50.0" />
+    </edge>
+    <edge source="commands.Remove_lower" target="utility.Respond" relationship="CREATE">
+      <point x="79.66666666666652" y="-27.0" />
+      <point x="2323.6654022157936" y="1552.0" />
+      <point x="2289.33206888246" y="1552.0" />
+      <point x="2289.33206888246" y="924.0" />
+      <point x="2898.4166666666665" y="924.0" />
+      <point x="2898.4166666666665" y="914.0" />
+      <point x="2486.6498675337175" y="914.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+    <edge source="commands.Group_counting_by_price" target="data.Ticket" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="4090.1486030828446" y="1368.0" />
+      <point x="4065.5" y="1368.0" />
+      <point x="4065.5" y="794.0" />
+      <point x="2866.833333333333" y="794.0" />
+      <point x="2866.833333333333" y="784.0" />
+      <point x="1307.2882345857336" y="784.0" />
+      <point x="124.33333333333331" y="204.0" />
+    </edge>
+    <edge source="UDPServer" target="utility.CollectionManager" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="1060.3986030828441" y="1897.0" />
+      <point x="889.1486030828441" y="1897.0" />
+      <point x="889.1486030828441" y="1164.0" />
+      <point x="1145.6654022157934" y="1164.0" />
+      <point x="-59.333333333333314" y="83.0" />
+    </edge>
+    <edge source="utility.Invoker" target="utility.CollectionManager" relationship="TO_ONE">
+      <point x="-66.66666666666652" y="-27.0" />
+      <point x="1310.0665342003845" y="1790.0" />
+      <point x="1254.4987355491266" y="1790.0" />
+      <point x="1254.4987355491266" y="1770.0" />
+      <point x="1210.2487355491266" y="1770.0" />
+      <point x="1210.2487355491266" y="1184.0" />
+      <point x="1204.9987355491266" y="1184.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="commands.Group_counting_by_price" target="utility.Respond" relationship="CREATE">
+      <point x="98.0" y="-27.0" />
+      <point x="4188.148603082845" y="1348.0" />
+      <point x="4153.121567919067" y="1348.0" />
+      <point x="4153.121567919067" y="924.0" />
+      <point x="2898.4166666666665" y="924.0" />
+      <point x="2898.4166666666665" y="914.0" />
+      <point x="2486.6498675337175" y="914.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+    <edge source="UDPClient" target="utility.Validator" relationship="CREATE">
+      <point x="-38.66666666666666" y="-27.0" />
+      <point x="555.4819364161774" y="1907.0" />
+      <point x="33.233200867050755" y="1907.0" />
+      <point x="33.233200867050755" y="1897.0" />
+      <point x="580.3986030828441" y="1897.0" />
+      <point x="-38.0" y="27.0" />
+    </edge>
+    <edge source="utility.Invoker" target="commands.Info" relationship="CREATE">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="1443.3998675337173" y="1790.0" />
+      <point x="2764.3986030828446" y="1790.0" />
+      <point x="2764.3986030828446" y="1780.0" />
+      <point x="2113.9987355491266" y="1780.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="commands.Print_field_descending_comment" target="utility.Respond" relationship="CREATE">
+      <point x="111.66666666666652" y="-27.0" />
+      <point x="3867.3152697495107" y="1348.0" />
+      <point x="3811.788234585734" y="1348.0" />
+      <point x="3811.788234585734" y="924.0" />
+      <point x="2898.4166666666665" y="924.0" />
+      <point x="2898.4166666666665" y="914.0" />
+      <point x="2486.6498675337175" y="914.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+    <edge source="utility.interfaces.CollectionManagerInterface" target="data.Ticket" relationship="DEPENDENCY">
+      <point x="0.0" y="-38.0" />
+      <point x="1296.1654022157936" y="794.0" />
+      <point x="2866.833333333333" y="794.0" />
+      <point x="2866.833333333333" y="784.0" />
+      <point x="1307.2882345857336" y="784.0" />
+      <point x="124.33333333333331" y="204.0" />
+    </edge>
+    <edge source="commands.Remove_greater" target="utility.Respond" relationship="CREATE">
+      <point x="82.66666666666652" y="-27.0" />
+      <point x="3214.5820688824597" y="1552.0" />
+      <point x="3237.7487355491266" y="1552.0" />
+      <point x="3237.7487355491266" y="1542.0" />
+      <point x="3341.6486030828446" y="1542.0" />
+      <point x="3341.6486030828446" y="924.0" />
+      <point x="2898.4166666666665" y="924.0" />
+      <point x="2898.4166666666665" y="914.0" />
+      <point x="2486.6498675337175" y="914.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.1894336030461685" showDependencies="true" x="2265.4999999999995" y="1040.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
